@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Task Manager</title>
+</head>
+<body>
+  <div class="container">
+    <h1>TaskPad</h1>
+
+    <!-- Task Input Section -->
+    <div class="task-input">
+      <input type="text" id="taskInput" placeholder="Enter a new task">
+      <input type="date" id="taskDate">
+      <button id="addTaskBtn">Add Task</button>
+    </div>
+
+    <!-- Progress Tracker -->
+    <div class="progress-container">
+      <div class="progress-bar" id="progressBar"></div>
+      <span id="progressText">0% Completed</span>
+    </div>
+
+    <!-- Task List -->
+    <ul id="taskList"></ul>
+  </div>
+  <script src="script.js">
+</body>
+</html>
